@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/panda1.png" type="image/x-icon">
+    <title>Responsive Homework</title>
+    <style>
+        .container{
+            /* background-color: red; */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container{
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .deer{
+            flex-direction: row-reverse;
+        }
+        .image-container img{
+            width: 100%;
+        }
+        .image-container-desc{
+            width: 100%;
+        }
+        .image-container-desc h1{
+            font-size: 40px;
+        }
+        .image-container-desc p{
+            font-size: 21px;
+        }
+
+
+        /* small device */
+        @media only screen and (max-width : 576px) {
+            .image-container{
+                flex-direction: column;
+            }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Homework</h1>
+        <div class="image-container panda">
+            <img src="./assets/images/bull.jpg" alt="">
+            <div class="image-container-desc">
+                <h1>Hello i am cute Playboy BULL!!!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id blanditiis voluptatum totam illo odio sit cumque, corrupti ratione qui! Soluta voluptate aspernatur maiores eos iste nobis, sit dicta nisi fugiat vero reiciendis, tempore odit rerum labore veniam corporis! Itaque voluptatibus nemo deserunt quaerat officiis inventore delectus, incidunt quasi dolore blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et architecto in dolor, quos necessitatibus cupiditate vel harum perspiciatis vitae consequatur ut earum aliquid modi recusandae dignissimos reiciendis molestias a. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem blanditiis doloribus nisi, provident eaque commodi quaerat eius, quam ipsum temporibus voluptatem delectus debitis distinctio dolorum numquam dolor enim! Ex, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae facere aperiam sed distinctio saepe. Inventore rem quod sint saepe. </p>
+            </div>
+            </div>
+        <div class="image-container deer">
+            <img src="./assets/images/deer.jpg" alt="">
+            <div class="image-container-desc">
+                <h1>Hello i am runner DEER!!!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id blanditiis voluptatum totam illo odio sit cumque, corrupti ratione qui! Soluta voluptate aspernatur maiores eos iste nobis, sit dicta nisi fugiat vero reiciendis, tempore odit rerum labore veniam corporis! Itaque voluptatibus nemo deserunt quaerat officiis inventore delectus, incidunt quasi dolore blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus et architecto in dolor, quos necessitatibus cupiditate vel harum perspiciatis vitae consequatur ut earum aliquid modi recusandae dignissimos reiciendis molestias a. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem blanditiis doloribus nisi, provident eaque commodi quaerat eius, quam ipsum temporibus voluptatem delectus debitis distinctio dolorum numquam dolor enim! Ex, suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae facere aperiam sed distinctio saepe. Inventore rem quod sint saepe.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
