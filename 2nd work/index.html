@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 800px;
+            width: 30vw;
+            background: red;
+        }
+        .black{
+            background: black;
+            height: 800px;
+            width: 70vw;
+        }
+        /* small screen */
+        @media screen and (max-width: 576px){
+            .container{
+                flex-direction: column;
+            }
+
+            .responsive{
+                width: 100%;
+                /* git ad */
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box responsive"></div>
+        <div class="box black responsive"></div>
+    </div>
+</body>
+</html>
